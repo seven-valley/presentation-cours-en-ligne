@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formation Javascript</title>
+    <link rel="icon" type="image/jpg" href="img/logo-js.jpg" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container px-5">
+        <a class="navbar-brand" href="index.html">
+          <i class="fa-brands fa-js-square fa-2xl me-3"></i>
+          Formation Javascript</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link"  href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="module" href="modules.html"
+                >Modules</a
+              >
+            </li>
+          </ul>
+        </div>
+        <img
+          src="img/logo.png"
+          class="ms-2"
+          alt="Seven Valley SAS"
+          width="120"
+        />
+        <img
+          src="img/logo-eni.jpg"
+          class="ms-2"
+          alt="Seven Valley SAS"
+          width="45"
+        />
+      </div>
+    </nav>
+   
+    <div class="container py-4">
+      <div class="row">
+        <div class=" col-4">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  
+                  2 : Lecture et écriture dans le DOM
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body ">
+                  <ul class="nav flex-column">
+                    <li class="nav-item  bg-secondary bg-gradient"><a class="nav-link active text-white" href="#">Démos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Calcul IMC</a></li class="nav-item"> 
+                    <li class="nav-item"><a class="nav-link" href="#">Conso Voiture</a></li> 
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- bb   -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  <a href="#" class="text-right btn btn-primary me-3">
+                    <i class="fa fa-eye"> </i>
+                  </a>
+                  Module 2 : Lecture et écriture dans le DOM
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ol>
+                    <li>Présenter le DOM.</li>
+                    <li>Présenter la console.</li>
+                    <li>Qu’est qu’un sélecteur ?</li>
+                    <li>Lire le contenu d’une balise HTML.</li>
+                    <li>Ecrire dans une balise HTML.</li>
+                    <li>Faire un trigger sur un bouton.</li>
+                    <li>Créer une fonction anonyme</li>
+                    <li>Lire le contenu d’un champ de saisie input.</li>
+                    <li>Réaliser un traitement.</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+            <!-- dd  -->
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It
+                  is hidden by default, until the collapse plugin adds the
+                  appropriate classes that we use to style each element. These
+                  classes control the overall appearance, as well as the showing
+                  and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also
+                  worth noting that just about any HTML can go within the
+                  <code>.accordion-body</code>, though the transition does limit
+                  overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-8">
+          <h1>Mettre en majuscule</h1>
+          <div class="col-6">
+          <input class="form-control" placeholder="Sasir votre texte">
+          </div>
+          <button class="btn btn-primary my-4">GO</button>
+          <h4>test</h4>
+        </div>
+      </div>
+
+    
+    </div>
+
+    <footer class="py-2 bg-dark">
+      <div class="container px-5">
+        <div class="row">
+          <div class="col-6">
+            <img src="img/logo.png" alt="Seven Valley SAS" width="150" />
+            <img
+              src="img/logo-eni.jpg"
+              class="ms-2"
+              alt="Seven Valley SAS"
+              width="70"
+            />
+          </div>
+          <div class="col-6">
+            <p class="mt-3 text-end text-white">
+              Copyright &copy; Seven Valley SAS
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
